@@ -1,6 +1,6 @@
 //: This is a Playground for your ReactiveCocoa experiments. Be sure to perform following steps before using it:
 //: 1. Run ``pods install`` in a root directory to install all dependencies
-//: 2. Open ReactiveCocoaPlayground.workspace
+//: 2. Open ReactiveCocoaPlayground.xcworkspace
 //: 3. Build ReactieCocoaPlayground target
 //: 4. You are good to go. Enjoy.
 
