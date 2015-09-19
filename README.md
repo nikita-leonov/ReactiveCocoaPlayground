@@ -1,7 +1,7 @@
 # ReactiveCocoaPlayground
 The easiest way to get a taste of ReactiveCocoa.
 
-![Playground screenshot](https://cloud.githubusercontent.com/assets/991541/9975425/e4f30954-5e70-11e5-9f72-41bdf11d03ce.png)
+![Playground screenshot](https://cloud.githubusercontent.com/assets/991541/9975568/04b2e5c6-5e75-11e5-8748-0331d0da19f5.png)
 
 ## Installation
 1. Run ``pod install`` to install all CocoaPods dependencies
