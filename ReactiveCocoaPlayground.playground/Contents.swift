@@ -7,9 +7,9 @@
 import Foundation
 import ReactiveCocoa
 
-let helloProducer: SignalProducer<String, NoError> = SignalProducer { sink, _ in
-    sendNext(sink, "Hello, RAC!")
-    sendCompleted(sink)
+let helloProducer: SignalProducer<String, NoError> = SignalProducer { observer, _ in
+    observer.sendNext("Hello, RAC!")
+    observer.sendCompleted()
 }
 
 func helloProcessor(message: String) {
