@@ -5,15 +5,18 @@
 //: 4. You are good to go. Enjoy.
 
 import Foundation
+import ReactiveSwift
 import ReactiveCocoa
+import enum Result.NoError
 
 let helloProducer: SignalProducer<String, NoError> = SignalProducer { observer, _ in
-    observer.sendNext("Hello, RAC!")
-    observer.sendCompleted()
+  observer.send(value: "Hello, RAC!")
+  observer.sendCompleted()
 }
 
 func helloProcessor(message: String) {
     print(message)
 }
 
-helloProducer.startWithNext(helloProcessor)
+helloProducer.startWithValues(helloProcessor)
+
